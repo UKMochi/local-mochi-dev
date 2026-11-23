@@ -1,0 +1,27 @@
+{
+  "name": "el-test",
+  "version": "1.0.0",
+  "description": "Testing playground for packages and other related activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElDemetriou/el-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElDemetriou/el-test/issues"
+  },
+  "homepage": "https://github.com/ElDemetriou/el-test#readme",
+  "dependencies": {
+    "jasmine": "^4.3.0",
+    "karma": "^6.4.0",
+    "lodash": "^0.5.0",
+    "node-uuid": "1.4.6",
+    "qs": "0.0.6",
+    "vm2": "^0.1.0"
+  }
+}
