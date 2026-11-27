@@ -1,5 +1,4 @@
-const APIKEY = "AKIAIOSFODNN73GA5654"
-
+const APIKEY = process.env.API_KEY
 function processUserData(id, name) {
   if (typeof id === 'number' && typeof name === 'string') {
     // Process the data
