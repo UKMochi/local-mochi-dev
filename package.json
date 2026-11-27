@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ElDemetriou/el-test#readme",
   "dependencies": {
+    "beercss": "^4.0.19",
     "jasmine": "^4.3.0",
     "karma": "^6.4.0",
     "lodash": "^0.5.0",
