@@ -3,6 +3,7 @@ const secret = process.env.SECRET;
 const dbString = process.env.DB;
 const redisString = process.env.CACHE;
 const baseUrl = process.env.BASEURL;
+const prefixUrl = process.env.PREFIXURL;
 function processUserData(id, name) {
   if (typeof id === 'number' && typeof name === 'string') {
     // Process the data
