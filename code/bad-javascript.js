@@ -2,6 +2,7 @@ const APIKEY = process.env.API_KEY;
 const secret = process.env.SECRET;
 const dbString = process.env.DB;
 const redisString = process.env.CACHE;
+const baseUrl = process.env.BASEURL;
 function processUserData(id, name) {
   if (typeof id === 'number' && typeof name === 'string') {
     // Process the data
